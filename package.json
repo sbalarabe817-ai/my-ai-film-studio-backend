@@ -1,15 +1,15 @@
 {
-  "name": "my-ai-film-studio",
+  "name": "my-ai-film-studio-backend",
   "version": "1.0.0",
-  "description": "AI Video Generator",
+  "description": "My AI Film Studio - AI Video Generator",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
   "engines": {
     "node": ">=18"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
   }
 }
